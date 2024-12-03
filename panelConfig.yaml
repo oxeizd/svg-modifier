@@ -1,7 +1,5 @@
 ---
 #------------------------------------------------------------------------------
-# YAML Aliases to simplify maintenance
-
 anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
@@ -21,9 +19,8 @@ anchorLinks:
       params: "time"
 #------------------------------------------------------------------------------
 # Panel Config
-
 cellIdPreamble: "cell-"
 cells: 
-  1:
+  WIyWlLk6GJQsqaUBKTNV:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
