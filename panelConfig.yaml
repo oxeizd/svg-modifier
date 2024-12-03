@@ -19,7 +19,7 @@ anchorLinks:
       params: "time"
 #------------------------------------------------------------------------------
 # Panel Config
-cellIdPreamble: "cell-"
+cellIdPreamble: ""
 cells: 
   superbox2:
     link:
