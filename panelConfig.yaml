@@ -19,8 +19,8 @@ anchorLinks:
       params: "time"
 #------------------------------------------------------------------------------
 # Panel Config
-cellIdPreamble: ""
+cellIdPreamble: "cell-"
 cells: 
-  superbox2:
+  sbox2:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
