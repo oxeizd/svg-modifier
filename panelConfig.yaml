@@ -20,6 +20,6 @@ anchorLinks:
 #------------------------------------------------------------------------------
 # Panel Config
 cells: 
-  1:
+  superbox:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
