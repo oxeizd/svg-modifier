@@ -14,29 +14,16 @@ anchorLinks:
       - {color: "green", level: 0}
       - {color: "orange", level: 1}
       - {color: "red", level: 2}
-
 # -----------------------------------------------------------------------------
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+#------------------------------------------------------------------------------
 # Panel Config
 
 cellIdPreamble: "cell-"
-gradientMode: "hue"
 cells: 
-
-  #----------------------------------------------------------------------------
-  # The clock consists of two hands and a face (surrounding circle). The face is
-  # used to store the rotation origin to use for the hands. All three cells share
-  # the same 'clock' namespace. The hand stroke colors could be driven from bespoke
-  # values, but in this example they are being sourced from the cell dataRef.
-  # The constant 'handDRef' shows how to decouple the source data from the actual
-  # formulas. There is only one clock in this example, but the formulas and drives
-  # could be used by multiple clocks via yaml anchors with different data injected
-  # via these constants.
   1:
-    bespoke:
-      namespace: "clock"
-      drives:
-        # Capture the clock origin
-        - elementName: "ellipse"
-          attribsGet:
-            clockOriginX: "cx"
-            clockOriginY: "cy"
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
