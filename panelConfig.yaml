@@ -1,26 +1,17 @@
----
-#------------------------------------------------------------------------------
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
-  - thresholds: &thresholds-high
-      - {color: "green", level: 100}
-      - {color: "orange", level: 400}
-      - {color: "red", level: 700}
-  - thresholds: &thresholds-slow
-      - {color: "green", level: 0}
-      - {color: "orange", level: 1}
-      - {color: "red", level: 2}
-# -----------------------------------------------------------------------------
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
-#------------------------------------------------------------------------------
 # Panel Config
 cellIdPreamble: "cell-"
+
 cells: 
-  box2:
+  box1:
+    dataRef: "cpu"
+    label:
+      separator: "replace"
+      units: "none"
+      decimalPoints: 3
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 0.2}
+        - {color: "red", level: 3}
     link:
-      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
+      url: "https://app.diagrams.net/?p=svgdata"
