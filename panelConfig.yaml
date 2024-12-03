@@ -21,6 +21,6 @@ anchorLinks:
 # Panel Config
 cellIdPreamble: "cell-"
 cells: 
-  sbox2:
+  box2:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
