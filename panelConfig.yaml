@@ -1,17 +1,20 @@
-# Panel Config
-cellIdPreamble: "cell-"
-
-cells: 
-  box1:
-    dataRef: "cpu"
-    label:
-      separator: "replace"
-      units: "none"
-      decimalPoints: 3
-    fillColor:
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 0.2}
-        - {color: "red", level: 3}
-    link:
-      url: "https://app.diagrams.net/?p=svgdata"
+changes:
+  - id: "cell-2"
+    attributes:
+      link: "http://example.com/1"
+      tooltip:
+          show: true
+      metrics:
+        - refId: "A"
+          thresholds: 
+            - { color: "#ff0000", value: 10 }
+            - { color: "#00ff00", value: 20 }
+  - id: "cell-3"
+    attributes:
+      tooltip:
+          show: true
+      metrics:
+        - refId: "B"
+          displayText: 'test'
+          thresholds: 
+            - { color: "#00ff00", value: 10 }
